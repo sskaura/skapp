@@ -1,10 +1,7 @@
-<?php
-$myObj = new stdClass();
-$myObj->name = "John";
-$myObj->age = 30;
-$myObj->city = "New York";
-
-$myJSON = json_encode($myObj);
-
-echo $myJSON;
-?>
+{
+  "show_dialog": true,
+  "title": "Welcome to sskaura world",
+  "message": "We have updated our app and old app is no more working so Please update your application!",
+  "button_text": "Close",
+  "button_url": "http://sskaura.epizy.com/origo1/"
+}
